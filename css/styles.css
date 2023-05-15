@@ -1,33 +1,21 @@
 
-/*
-@media screen and (max-width: 600px) {
-  .header{
-    margin-top: 0;
-    background-image: url('../images/ekso_4.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-  }
-}
-*/
 
 body {
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: rgb(28, 28, 27);
 }
 
 
 
 .heading {
-  padding-top: 80px;
+  padding-top: 6rem;
   padding-bottom: 10px;
   font-family: 'Garamond', serif;
-  background-color: #000;
+  background-color: transparent;
   color:white;
   text-align: center;
-  margin: 0;
+  margin:0;
 
 }
 
@@ -35,40 +23,34 @@ body {
   cursor:pointer;
 }
 
-.heading_2 {
-  padding-top: 90px;
-  padding-bottom: 10px;
-  font-family: 'Garamond', serif;
-  background-color: #000;
-  color:white;
-  text-align: center;
-  margin: 0;
-}
+
 
 h3{
   text-align: center;
-  background-color: #000;
+  background-color: transparent;
   margin: 0;
   font-family: 'Garamond', serif;
   color: white;
 }
 .navbar {
-    padding-left: 2em;
-    background :#000;
+    padding-left: 1em;
+    background :#a9a5a5;
     z-index: 1;
     margin-bottom: 0;
 
-  /*  position: fixed;
-    top: 0;
-    width: 100%;*/
 
 }
 .nav-link, .navbar-brand {
-    font-family: 'Garamond', serif;
-    font-size: 1.15em;
-    color: #fff;
+    font-family: 'Garamond';
+    font-size: 1.2em;
+    color: #000;
     cursor: pointer;
 }
+
+.navbar-brand img{
+  padding: 10px 0px 10px 20px;
+}
+
 .nav-link {
     margin-right: 1em !important;
 }
@@ -86,7 +68,7 @@ a.nav-link.dropdown-toggle.show{
 }
 
 .dropdown-menu.show{
-  background-color: #fff;
+  background-color: #a9a5a5;
 }
 
 a.dropdown-item{
@@ -125,7 +107,7 @@ video{
 }
 
 .col-sm-1, .col-sm-10, .col-sm-2, .col-sm-8{
-  background-color: black;
+  background-color: transparent;
   color: white;
   text-align: justify;
   margin:0;
@@ -137,25 +119,27 @@ video{
 }
 
 
-
+/*lightbox palios naos*/
 #lightbox_palios{
   display: none;
   margin: auto;
 }
 
 #lb_palios{
-  background-color: black;
+  background-color: transparent;
   text-align: center;
   margin:auto;
 }
 
+
+/*lightbox neos naos photo & video*/
 #lightbox_neos{
   display: none;
   margin: auto;
 }
 
 #lb_neos{
-  background-color: black;
+  background-color: transparent;
   text-align: center;
   margin:auto;
 }
@@ -166,34 +150,27 @@ video{
 }
 
 #lb_neos_vid{
-  background-color: black;
+  background-color: transparent;
   text-align: center;
   margin:auto;
 }
 
-#neos_naos_mesa{
-  display: block;
-  margin: auto;
-  z-index: 2;
-}
 
-#neos_naos_mesa_thumb:hover{
-  cursor: pointer;
-}
+
 
 .lightbox-caption{
-  background-color: #000;
+  background-color: rgb(28, 28, 27);
 }
 
-
-footer p{
-  background-color: black;
-  color: white;
+#footer{
+  background-color: #a9a5a5;
+  color: #000;
   text-align: center;
   margin:3rem auto 0 auto;
-  padding: 2rem 0;
-  
+  padding: 1rem 0;
 }
+
+
 
 a img {
   padding: 1em;
@@ -201,4 +178,13 @@ a img {
 
 a.col-sm-4{
   color:#000;
+}
+
+.navbar.navbar-expand-sm.fixed-top{
+  padding: 0;
+}
+
+
+div.container-fluid{
+  background-image: url('images/navbar.jpeg');
 }

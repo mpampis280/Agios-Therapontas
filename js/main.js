@@ -27,7 +27,8 @@ function lightbox_neos() {
   if (x.style.display === 'block') {
     x.style.display = 'none';
     op.style.opacity = 1;
-  } else {
+  } 
+  else {
     x.style.display = 'block';
     op.style.opacity = 0.3;
   }
