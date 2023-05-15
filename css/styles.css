@@ -3,7 +3,13 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(28, 28, 27);
+    background-color: rgb(15, 15, 15);
+    /*background: linear-gradient(
+    white 2%,
+    black 3%,
+    black 98%,
+    white 99%
+  );*/
 }
 
 
@@ -34,10 +40,10 @@ h3{
 }
 .navbar {
     padding-left: 1em;
-    background :#a9a5a5;
+    /*background-color: transparent;*/
+    background-color :#a9a5a5;
     z-index: 1;
     margin-bottom: 0;
-
 
 }
 .nav-link, .navbar-brand {
@@ -163,7 +169,8 @@ video{
 }
 
 #footer{
-  background-color: #a9a5a5;
+  /*background-color: transparent;*/
+ background-color: #a9a5a5;
   color: #000;
   text-align: center;
   margin:3rem auto 0 auto;
