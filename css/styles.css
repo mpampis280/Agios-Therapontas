@@ -161,9 +161,6 @@ video{
   margin:auto;
 }
 
-
-
-
 .lightbox-caption{
   
   background-color: #000;
@@ -197,11 +194,7 @@ div.container-fluid{
   background-image: url('images/navbar.jpeg');
 }
 
-/*.carousel-caption p{
-  margin-top: 8rem;
-  color: white;
-  font-size: 1.2rem;
-}*/
+
 
 .carousel-item{
   margin-bottom: 0rem;
