@@ -25,7 +25,7 @@ body {
 
 }
 
-.heading span:hover{
+.heading span:hover, h3 span:hover{
   cursor:pointer;
 }
 
@@ -165,7 +165,8 @@ video{
 
 
 .lightbox-caption{
-  background-color: rgb(28, 28, 27);
+  
+  background-color: #000;
 }
 
 #footer{
@@ -195,3 +196,18 @@ a.col-sm-4{
 div.container-fluid{
   background-image: url('images/navbar.jpeg');
 }
+
+/*.carousel-caption p{
+  margin-top: 8rem;
+  color: white;
+  font-size: 1.2rem;
+}*/
+
+.carousel-item{
+  margin-bottom: 0rem;
+}
+
+.carousel { overflow: hidden; padding-bottom: 4rem; }
+.carousel-caption { top: 100%; font-style: italic;}
+.carousel-inner { overflow: visible; }
+.carousel-control-next, .carousel-control-prev, .carousel-indicators { bottom: 4rem; }
