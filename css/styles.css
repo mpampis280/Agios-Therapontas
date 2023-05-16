@@ -25,7 +25,7 @@ body {
 
 }
 
-.heading span:hover{
+.heading span:hover, h3 span:hover{
   cursor:pointer;
 }
 
@@ -165,7 +165,8 @@ video{
 
 
 .lightbox-caption{
-  background-color: rgb(28, 28, 27);
+  
+  background-color: #000;
 }
 
 #footer{
