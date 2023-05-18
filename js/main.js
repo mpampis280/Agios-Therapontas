@@ -1,5 +1,6 @@
 
 
+
 //<!--lightbox palios naos toggle-->
 
   function lightbox_palios() {
@@ -54,7 +55,20 @@ function lightbox_neos_vid() {
   }
 }
 
-
-
-
 //end of lightbox neos video
+
+
+//<!--lightbox vios agiou-->
+
+function lightbox_vios() {
+  var x = document.getElementById('lightbox_vios');
+  var op = document.getElementById('btn_vios');
+  if (x.style.display === 'block') {
+    x.style.display = 'none';
+    op.style.opacity = 1;
+  } else {
+    x.style.display = 'block';
+    op.style.opacity = 0.3;
+  }
+}
+//<!--end of lightbox vios agiou-->
