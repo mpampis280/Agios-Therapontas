@@ -1,14 +1,14 @@
 //<!--contact-->
-
+//<iframe class='responsive-iframe' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10953.638376042767!2d26.554947270929674!3d39.10568384260895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ba670eaa255555%3A0xffc627be89a91314!2sGreek%20Orthodox%20Church%20of%20Saint%20Therapon!5e0!3m2!1sen!2sgr!4v1684434748420!5m2!1sen!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 function contact_us() {
   var x = document.getElementById('contact');
   var op = document.getElementById('toggle_contact');
   if (x.style.display === 'block') {
     x.style.display = 'none';
-    op.style.opacity = 1;
+    op.style.color = 'black';
   } else {
     x.style.display = 'block';
-    op.style.opacity = 0.3;
+    op.style.color = 'blue';
   }
 }
 //<!--end of contact-->
