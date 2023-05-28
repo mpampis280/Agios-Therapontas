@@ -266,3 +266,29 @@ a {
 .far.fa-image, .fa-regular{
   font-size: 80px;
 }
+.underline{
+  text-decoration: underline;
+}
+
+/*lightbox activities photo & video*/
+#lightbox_activities{
+  display: none;
+  margin: auto;
+}
+
+#lb_activities{
+  background-color: transparent;
+  text-align: center;
+  margin:auto;
+}
+
+#lightbox_activities_vid{
+  display: none;
+  margin: auto;
+}
+
+#lb_activities_vid{
+  background-color: transparent;
+  text-align: center;
+  margin:auto;
+}

@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Άγιος Θεράποντας</title>
+    <title>Ιερός Ναός Αγίου Θεράποντα</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
@@ -47,11 +47,11 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Δραστηριότητες</a>
+            <a class="nav-link dropdown-toggle" href="#activities" role="button" data-bs-toggle="dropdown">Δραστηριότητες</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Δραστηριότητα 1</a></li>
-              <li><a class="dropdown-item" href="#">Δραστηριότητα 2</a></li>
-              <li><a class="dropdown-item" href="#">Δραστηριότητα 3</a></li>
+              <li><a class="dropdown-item" href="#synakseis">Συνάξεις</a></li>
+              <li><a class="dropdown-item" href="#akolouthies">Ακολουθίες</a></li>
+              <!--<li><a class="dropdown-item" href="#">Δραστηριότητα 3</a></li>-->
             </ul>
           </li>
           <!--<li class="nav-item">
@@ -318,13 +318,87 @@
 <h3 id="esoteriki" class="heading">Εσωτερική</h3>
 <h3 id="eksoteriki" class="heading">Εξωτερική</h3>
 
-<h1 id="architecture" class="heading">Δραστηριότητες</a></h1>
-<h3 id="" class="heading"> Δραστηριότητα 1</h3>
-<h3 id="" class="heading"> Δραστηριότητα 2</h3>
-<h3 id="" class="heading"> Δραστηριότητα 3</h3>
+<h1 id="activities" class="heading">Δραστηριότητες</a></h1>
+<!--arxi activities-->
+<div class="row">
+  <div class="col-sm-2 "></div>
+  <div class="col-sm-8 ">
 
-<!--<h1 id="contact" class="heading">Επικοινωνία</a></h1>-->
+    <h3 class="heading" id="synakseis">Συνάξεις</h3>
+    <p>
+      <ul>
+        <li><span class="underline">Σύναξη Κατηχητικού Λόγου:</span> Δευτέρα στις 5:00 μ.μ. στο Ναό του Αγίου Θεράποντα, μετά την Παράκληση της Παναγίας.</li>	
+	      <li><span class="underline">Συντροφιά Νέων:</span> Δευτέρα στις 7:00 μ.μ. στην Αίθουσα Κατήχησης του Ναού μας, μετά τους Χαιρετισμούς της Παναγίας.</li>
+	      <li><span class="underline">Συντροφιά Παιδιών Δημοτικού:</span> Σάββατο 10:00 π.μ. στην Αίθουσα Κατήχησης του Ναού μας, με κουβέντα, παιχνίδια και παρουσιάσεις.</li>
+        <li><span class="underline">Συντροφιά Εφήβων:</span> Κυριακή 10:30 π.μ. στην Αίθουσα Κατήχησης του Ναού μας, για μαθητές/τριες Γυμνασίου-Λυκείου.</li>
+        <li><span class="underline">Σύναξη Συζύγων και Νεαρών Ζευγαριών:</span> Kάθε πρώτο Σάββατο του μήνα, στις 8:00 μ.μ., στο Κατοικητήριο της Αγίας Θωμαΐδος</li>
+      </ul>
+    </p>
+    <h3 class="heading" id="akolouthies">Ακολουθίες</h3>
+    <ul>
+      <li><span class="underline">Θεία Λειτουργία - Κήρυγμα:</span> Κάθε Κυριακή στον Ιερό Ναό του Αγίου Θεράποντα.</li>
+      <li><span class="underline">Παράκληση:</span> Κάθε Παρασκευή στις  5:00 μ.μ. στον Ιερό Ναό του Αγίου Θεράποντα.</li>
+    </ul>
+   
+    
+  </div>
+  <div class="col-sm-2 "></div>
+</div>
 
+<div class="row"> <!--media-->
+  <div class="col-sm-2 "></div>
+  <div class="col-sm-8">
+    <div class="row row_2">
+      <div id="btn_activities" onclick="lightbox_activities()" class="col-sm-6"><img src="images/images-icon.png" alt="images" height="110" width="110"></div>
+      <div id="btn_activities_vid" onclick="lightbox_activities_vid()" class="col-sm-6"><img src="images/videos-icon.png" alt="videos" height="100" width="100"></div>
+    </div>
+  </div>
+  <div class="col-sm-2"></div>
+  </div>
+ 
+
+  <!--lightbox activities-->
+<div id="lightbox_activities" class="container">
+  <div class="row"> 
+    <div class="col-sm-2 "></div>
+    <div class="col-sm-8" id="lb_activities">
+    <a href="images/activities/prosefxi.jpg" data-toggle="lightbox" data-gallery="activities-gallery" data-caption="Αφίσα με πληροφορίες για το κήρυγμα." class="col-sm-4">
+      <img src="images/activities/prosefxi.jpg" height="200" width="200" class="img-fluid" >
+    </a>
+    <a href="images/activities/syntrofia_efivon.jpg" data-toggle="lightbox" data-gallery="activities-gallery" data-caption="Αφίσα με πληροφορίες για την συντροφιά εφήβων." class="col-sm-4">
+      <img src="images/activities/syntrofia_efivon.jpg" height="200" width="200" class="img-fluid" >
+    </a>
+    <a href="images/activities/syntrofia_neon.jpg" data-toggle="lightbox" data-gallery="activities-gallery" data-caption="Αφίσα με πληροφορίες για την συντροφιά νέων." class="col-sm-4">
+      <img src="images/activities/syntrofia_neon.jpg" height="200" width="200" class="img-fluid" >
+    </a>
+    <a href="images/activities/syntrofia_paidion.jpg" data-toggle="lightbox" data-gallery="activities-gallery" data-caption="Αφίσα με πληροφορίες για την συντροφιά παιδιών." class="col-sm-4">
+      <img src="images/activities/syntrofia_paidion.jpg" height="200" width="200" class="img-fluid" >
+    </a>
+
+  </div>
+    <div class="col-sm-2 "></div>
+  </div>
+  </div>
+  <!--telos lightbox activities-->
+
+  <div id="lightbox_activities_vid" class="container"><!--lightbox video activities-->
+    <div class="row"> 
+      <div class="col-sm-2 "></div>
+      <div class="col-sm-8" id="lb_activities_vid">
+        <a id="activities_vid1" href="video/video_1.mp4"  type="video/mp4" data-toggle="lightbox" data-gallery="activities_gallery_vid1" data-caption="Πανοραμικό βίντεο του ναού." class="col-sm-4">
+          <img src="video/neosnaos/preview/panorama.jpg" height="200" width="200" class="img-fluid img-fluid-video" alt="Προεπισκόπηση του βίντεο" ><!--thumbnail-->
+        </a>
+        <a id="activities_vid2" href="video/video_tel.mp4" type="video/mp4"  data-toggle="lightbox" data-gallery="activities_gallery_vid2" data-caption="Πανοραμικό βίντεο του ναού." class="col-sm-4">
+          <img src="video/neosnaos/preview/naos_mesa_thumb.jpg" height="200" width="200" class="img-fluid img-fluid-video" alt="Προεπισκόπηση του βίντεο"><!--thumbnail-->
+        </a>
+      </div>
+     
+      <div class="col-sm-2 "></div>
+    
+    </div>
+    </div>
+
+<!--telos activities-->
 
 <footer id="footer">
   
