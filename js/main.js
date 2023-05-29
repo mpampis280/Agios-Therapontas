@@ -129,3 +129,85 @@ function lightbox_activities_vid() {
 }
 
 //end of lightbox activities video
+
+//lightbox archin photo 
+function lightbox_archin() {
+  var x = document.getElementById('lightbox_archin');
+  var y = document.getElementById('lightbox_archin_vid');
+  var op = document.getElementById('btn_archin');
+  var op2 = document.getElementById('btn_archin_vid');
+  y.style.display = "none";
+  op2.style.opacity = 1;
+
+  if (x.style.display === 'block') {
+    x.style.display = 'none';
+    op.style.opacity = 1;
+  } 
+  else {
+    x.style.display = 'block';
+    op.style.opacity = 0.3;
+  }
+}
+
+//end of lightbox archin photo
+
+//lightbox archin video
+function lightbox_archin_vid() {
+  var x = document.getElementById('lightbox_archin_vid');
+  var y = document.getElementById('lightbox_archin');
+  var op = document.getElementById('btn_archin_vid');
+  var op2 = document.getElementById('btn_archin');
+  y.style.display = 'none';
+  op2.style.opacity = 1;
+  
+  if (x.style.display === 'block') {
+    x.style.display = 'none';
+    op.style.opacity = 1;
+  } else {
+    x.style.display = 'block';
+    op.style.opacity = 0.3;
+  }
+}
+
+//end of lightbox archin video
+
+//lightbox archout photo 
+function lightbox_archout() {
+  var x = document.getElementById('lightbox_archout');
+  var y = document.getElementById('lightbox_archout_vid');
+  var op = document.getElementById('btn_archout');
+  var op2 = document.getElementById('btn_archout_vid');
+  y.style.display = "none";
+  op2.style.opacity = 1;
+
+  if (x.style.display === 'block') {
+    x.style.display = 'none';
+    op.style.opacity = 1;
+  } 
+  else {
+    x.style.display = 'block';
+    op.style.opacity = 0.3;
+  }
+}
+
+//end of lightbox archout photo
+
+//lightbox archout video
+function lightbox_archout_vid() {
+  var x = document.getElementById('lightbox_archout_vid');
+  var y = document.getElementById('lightbox_archout');
+  var op = document.getElementById('btn_archout_vid');
+  var op2 = document.getElementById('btn_archout');
+  y.style.display = 'none';
+  op2.style.opacity = 1;
+  
+  if (x.style.display === 'block') {
+    x.style.display = 'none';
+    op.style.opacity = 1;
+  } else {
+    x.style.display = 'block';
+    op.style.opacity = 0.3;
+  }
+}
+
+//end of lightbox archout video

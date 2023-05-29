@@ -270,6 +270,10 @@ a {
   text-decoration: underline;
 }
 
+ul{
+  line-height: 180%;
+}
+
 /*lightbox activities photo & video*/
 #lightbox_activities{
   display: none;
@@ -292,3 +296,51 @@ a {
   text-align: center;
   margin:auto;
 }
+
+/*lightbox archin photo & video*/
+#lightbox_archin{
+  display: none;
+  margin: auto;
+}
+
+#lb_archin{
+  background-color: transparent;
+  text-align: center;
+  margin:auto;
+}
+
+#lightbox_archin_vid{
+  display: none;
+  margin: auto;
+}
+
+#lb_archin_vid{
+  background-color: transparent;
+  text-align: center;
+  margin:auto;
+}
+
+/*lightbox archout photo & video*/
+#lightbox_archout{
+  display: none;
+  margin: auto;
+}
+
+#lb_archout{
+  background-color: transparent;
+  text-align: center;
+  margin:auto;
+}
+
+#lightbox_archout_vid{
+  display: none;
+  margin: auto;
+}
+
+#lb_archout_vid{
+  background-color: transparent;
+  text-align: center;
+  margin:auto;
+}
+
+
